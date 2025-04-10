@@ -1,0 +1,94 @@
+/* Centraliza o conteúdo e aplica uma margem */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 80%;
+  max-width: 600px;
+  text-align: center;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo do título */
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Estilo do botão */
+button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 1.1em;
+  cursor: pointer;
+  width: 100%;
+  max-width: 400px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Estilo do link para voltar à agenda */
+a.btn {
+  display: inline-block;
+  background-color: #28a745;
+  color: white;
+  padding: 10px 20px;
+  margin-top: 20px;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 1.1em;
+}
+
+a.btn:hover {
+  background-color: #218838;
+}
+
+/* Estilo do formulário */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Estilo dos labels */
+label {
+  font-size: 1.2em;
+  color: #333;
+  text-align: left;
+  width: 100%;
+}
+
+/* Estilo dos campos de entrada */
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 1em;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border-color: #007bff;
+}
